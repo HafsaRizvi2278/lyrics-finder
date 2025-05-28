@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lyrics Finder</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="hero" role="banner" aria-label="Lyrics Finder">
+      <div class="overlay">
+        <h1>Lyrics Finder</h1>
+        <form id="form" role="search" aria-label="Search for song lyrics">
+          <label for="search" class="sr-only">Search artist or song title</label>
+          <input type="search" id="search" name="search" placeholder="Search artist or song title" aria-required="true" />
+          <button class="btn" type="submit" aria-label="Search">Search</button>
+        </form>
+      </div>
+    </header>
+
+    <section class="results" id="result" aria-live="polite"></section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

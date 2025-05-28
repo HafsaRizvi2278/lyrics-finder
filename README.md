@@ -18,8 +18,8 @@
 
 ## 🖼️ Screenshots
 
-![Lyrics Finder Screenshot](screenshot.png)  
-<sub>*Tip: Replace this with an actual screenshot of your deployed app*</sub>
+![Lyrics Finder Screenshot](https://github.com/user-attachments/assets/89bd2282-430c-4c08-a239-2f1096feaca8)
+
 
 ---
 
